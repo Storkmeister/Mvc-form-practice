@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using Treehouse.FitnessFrog.Models;
 
+namespace Treehouse.FitnessFrog.Data
 {
     /// <summary>
     /// Provides an in-memory data store.
