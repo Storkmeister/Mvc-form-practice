@@ -9,7 +9,8 @@ using Treehouse.FitnessFrog.Models;
 
 namespace Treehouse.FitnessFrog.Controllers
 {
-    public class EntriesController : Controller
+    public class 
+        EntriesController : Controller
     {
         private EntriesRepository _entriesRepository = null;
 
