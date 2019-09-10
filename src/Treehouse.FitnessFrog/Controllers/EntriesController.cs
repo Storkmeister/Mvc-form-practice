@@ -68,8 +68,6 @@ namespace Treehouse.FitnessFrog.Controllers
                 _entriesRepository.AddEntry(entry);
 
                 return RedirectToAction("Index");
-
-                //TODO Display the Entries list page
             }
 
             ViewBag.ActivitiesSelectListItems = new SelectList(

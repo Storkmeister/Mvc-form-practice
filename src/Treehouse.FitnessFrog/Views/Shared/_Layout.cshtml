@@ -44,8 +44,7 @@
                 </a>
             </div>
             <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav">
-                </ul>
+                <ul class="nav navbar-nav"></ul>
                 <a href="@Url.Action("Add", "Entries")" style="visibility: @GetAddEntryButtonVisibility()"
                    class="btn btn-primary navbar-btn navbar-right">
                     <span class="glyphicon glyphicon-plus"></span> Add Entry
@@ -63,12 +62,15 @@
     </div>
 
     <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/Scripts/jquery.validate.bootstrap.js"></script>
     <script src="~/Scripts/bootstrap.min.js"></script>
-    @*<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.1/js/bootstrap-datepicker.min.js"></script>
-    <script>
-        $('input.datepicker').datepicker({
-            format: 'd/m/yyyy'
-        });
-    </script>*@
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.1/js/bootstrap-datepicker.min.js"></script>
+        <script>
+            $('input.datepicker').datepicker({
+                format: 'd/m/yyyy'
+            });
+        </script>
 </body>
 </html>
